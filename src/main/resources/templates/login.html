@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="../static/styles/login.css" th:href="@{/styles/login.css}" rel="stylesheet" />
+</head>
+<body>
+<section>
+<header class="header">
+<figure>
+<img src="../static/images/logo.jpg"  th:src="@{/images/logo.jpg}" class="logo">
+</figure>
+
+</header>
+</section> 
+<hr/>
+<section class="login">
+<form class="form" th:action="@{/login}" method="post">
+<fieldset>
+<legend>Login</legend>
+<input type="text" id="username" name="username" placeholder="Name">
+<input type="password" id="password"  name="password" placeholder="Password">
+<button type="submit">Login</button>
+</fieldset>
+</form>
+
+
+</section>
+</body>
+</html>

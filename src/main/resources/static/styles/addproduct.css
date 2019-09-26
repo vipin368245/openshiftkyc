@@ -1,0 +1,128 @@
+.header
+{
+	width:100%;
+	background-color: lightblue;
+	display: block;
+	height:100px;
+}
+
+
+.header figure .logo
+{
+	
+	width:100px;
+	height:100px;
+	float:left;
+	
+}
+
+.menu
+{
+	margin-left: 30%;
+	padding-top: 2%;
+}
+
+.dropbtn {
+  background-color: navy;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  border: 2px solid lime;
+  
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: lime;}
+
+.form
+{
+	width:30%;
+	margin-left: 30%;
+	font-size: large;
+	font-weight: bold;
+}
+
+.form fieldset
+{
+	border: 2px solid blue;
+	
+}
+
+.form legend
+{
+	text-align: center;
+}
+
+.form input
+{
+	width:80%;
+	padding: 5%;
+	margin-bottom:3%;
+	margin-left: 5%;
+}
+.form select
+{
+	width:90%;
+	padding: 5%;
+	margin-bottom:3%;
+	margin-left: 5%;
+}
+
+.form button[type=submit]
+{
+	width:40%;
+	padding: 5%;
+	
+	background-color: green;
+	color:white;
+    float:left; 
+    margin-right:5%;
+    margin-left: 5%;
+}
+
+.form button[type=reset]
+{
+	width:40%;
+	padding: 5%;
+	background-color: red;
+	color:white;
+	
+}
+
+.result
+{
+	width:30%;
+	margin-left: 30%;
+	background-color: lime;
+	color: red;
+	border: 2px solid blue; 
+	
+}
+
+

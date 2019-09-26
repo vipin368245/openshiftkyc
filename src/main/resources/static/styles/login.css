@@ -1,0 +1,111 @@
+body
+{
+	background-color: gray;
+}
+
+hr
+{
+	border: 8px solid white;
+}
+.header
+{
+	width:100%;
+	
+	display: block;
+	height:100px;
+}
+
+
+.header figure .logo
+{
+	
+	width:20%;
+	height:75px;
+	float:left;
+	
+}
+
+.login
+{
+	background-color: gray;
+	
+	width:25%;
+	margin-left: 60%;
+}
+
+
+.form
+{
+	width:80%;
+	font-size: large;
+	
+}
+
+
+
+.form fieldset legend
+{
+	text-align: center;
+	
+}
+
+.login button[type=submit]
+{
+	color:green;
+	margin-left: 10%;
+}
+
+.login button[type=reset]
+{
+	color:red;
+	margin-left: 30%;
+}
+
+
+input,select {
+  margin: 40px 25px;
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+
+input:focus, input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+
+
+ input::-webkit-input-placeholder {
+ -webkit-transition: all 0.6s ease-in-out;
+ transition: all 0.6s ease-in-out;
+}
+
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+ color: #1abc9c;
+ font-size: 11px;
+ -webkit-transform: scale(0.75) translateY(-100%) translateX(-30px);
+ transform: scale(0.75) translateY(-100%) translateX(-30px);
+ visibility: visible !important;
+} 
+
+/* input:focus + span, input:not(:placeholder-shown) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+}
+
+For IE Browsers
+input:focus + span, input:not(:-ms-input-placeholder) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+} */
